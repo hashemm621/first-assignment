@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common css */
+.btn-primary{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: rgb(78, 71, 255);
+    text-transform: capitalize;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover{
+    background-color: green;
+    color: tomato;
+    /* transform: scale(1.2); */
+    transform: translateY(-2px);
+}
+
+
+/* header section applay css starts here */
+/* hero-section */
+.hero-section{
+    background-image: url(../Assets/Hero-bg.png);
+}
+/* navbar */
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    font-size: 34px;
+    color: rgb(78, 71, 255);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.nav-list a:hover{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+/* banner section */
+.banner-content{
+    text-align: center;
+    padding: 200px 250px;
+    
+}
+.banner-heading{
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(37, 36, 50);
+    margin-bottom: 37px;
+}
+
+/* header section applay css starts here */
