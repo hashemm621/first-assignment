@@ -101,7 +101,7 @@
 /* user section section starts here */
 
 .user-container {
-  background-color: rgba(78, 71, 255, 0.1);
+  background-color: rgba(171, 188, 212, 0.123);
   margin-top: 137px;
   border-radius: 24px;
   text-align: center;
@@ -147,7 +147,7 @@
   justify-content: space-between;
 }
 .card {
-  background-color: rgb(171, 188, 212);
+  background-color: rgba(171, 188, 212, 0.123);
   padding: 25px;
   border-radius: 20px;
   transition: all 0.3s ease;
