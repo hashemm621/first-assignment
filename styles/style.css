@@ -131,3 +131,51 @@
 }
 
 /*  user section section ends here   */
+
+/* user feedback start here */
+.feedback h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(37, 36, 50);
+    text-align: center;
+    margin-top: 137px;
+    margin-bottom: 50px;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.card{
+    background-color: rgb(171, 188, 212);
+    padding: 25px;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+.card:hover{
+    box-shadow: 10px 7px 5px rgb(41, 49, 61);
+    transform: scale(1.05);
+}
+.card h2{
+    margin-top: 24px;
+    color: rgb(37, 36, 50);
+}
+.user-info{
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    align-items: center;
+    
+
+}
+.user-info img{
+    border-radius: 50%;
+}
+.user-data span{
+    color: gray;
+}
+.user-data p{
+    color: rgb(61, 54, 54);
+}
+
+/* user feedback end here */
