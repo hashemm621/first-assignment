@@ -1,102 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* common css */
-.btn-primary{
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: rgb(78, 71, 255);
-    text-transform: capitalize;
-    padding: 15px 30px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    transition: all 0.3s ease;
+.btn-primary {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: rgb(78, 71, 255);
+  text-transform: capitalize;
+  padding: 15px 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
-.btn-primary:hover{
-    background-color: green;
-    color: tomato;
-    /* transform: scale(1.2); */
-    transform: translateY(-2px);
+.btn-primary:hover {
+  background-color: green;
+  color: tomato;
+  /* transform: scale(1.2); */
+  transform: translateY(-2px);
 }
-
 
 /* header section applay css starts here */
 /* hero-section */
-.hero-section{
-    background-image: url(../Assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero-section {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* navbar */
-.nav-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 100px;
-    list-style: none;
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  list-style: none;
 }
-.nav-list a{
-    text-decoration: none;
-    font-size: 34px;
-    color: rgb(78, 71, 255);
-    font-weight: bold;
-    transition: all 0.3s ease;
+.nav-list a {
+  text-decoration: none;
+  font-size: 34px;
+  color: rgb(78, 71, 255);
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
-.nav-list a:hover{
-    color: tomato;
-    border-bottom: 2px solid tomato;
+.nav-list a:hover {
+  color: tomato;
+  border-bottom: 2px solid tomato;
 }
 
 /* banner section */
-.banner-content{
-    text-align: center;
-    padding: 200px 250px;
-    
+.banner-content {
+  text-align: center;
+  padding: 200px 250px;
 }
-.banner-heading{
-    font-size: 65px;
-    font-weight: bold;
-    color: rgb(37, 36, 50);
-    margin-bottom: 37px;
+.banner-heading {
+  font-size: 65px;
+  font-weight: bold;
+  color: rgb(37, 36, 50);
+  margin-bottom: 37px;
 }
 
 /* header section applay css ends here */
 
 /* live preview section starts here */
-.main-section{
-    margin: 116px 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
- 
-.live-preview{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    
+.container {
+  margin: 116px 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.live-preview .action h2{
-    font-size: 42px;
-    font-weight: 700;
-    color: rgb(37, 36, 50);
-    margin-bottom: 23px;
-}
-.live-preview .action p{
-    font-size: 24px;
-    color: rgba(37, 36, 50, 0.50);
-    margin-bottom: 23px;
+.live-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
 }
 
-.live-preview .live-preview-img img{
-    width: 403px;
-    
-    height: 328px;
-    border-radius: 48px;
+.live-preview .action h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  margin-bottom: 23px;
+}
+.live-preview .action p {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+
+.live-preview .live-preview-img img {
+  width: 403px;
+
+  height: 328px;
+  border-radius: 48px;
 }
 
 /* live preview section ends here */
+
+/* user section section starts here */
+
+.user-container {
+  background-color: rgba(78, 71, 255, 0.1);
+  margin-top: 137px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 50px 142px;
+}
+.user-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  margin-bottom: 40px;
+}
+.user-counts {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 161px;
+}
+
+.user-count {
+  display: block;
+  color: rgb(78, 71, 255);
+  font-size: 50px;
+  font-weight: bold;
+}
+.user-subtitle {
+  font-size: 16x;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+/*  user section section ends here   */
