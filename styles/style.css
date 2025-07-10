@@ -179,3 +179,34 @@
 }
 
 /* user feedback end here */
+
+/* trial section starts here*/
+.trial{
+    margin-top: 137px;
+    text-align: center;
+    padding: 71px 150px;
+    background-color: rgba(24, 14, 14, 0.616);
+    border-radius: 10px;
+}.trial h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(37, 36, 50);
+    margin-bottom: 20px;
+}.trial p{
+    font-size: 15px;
+    margin-top: 20px;
+}.trial button{
+    margin: 20px auto;
+}
+.trial-img{
+    text-align: center;
+}
+.trial-img img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+
+
+/* trial section ends here */
+
