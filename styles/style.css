@@ -28,6 +28,8 @@
 /* hero-section */
 .hero-section{
     background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* navbar */
 .nav-list{
@@ -62,4 +64,39 @@
     margin-bottom: 37px;
 }
 
-/* header section applay css starts here */
+/* header section applay css ends here */
+
+/* live preview section starts here */
+.main-section{
+    margin: 116px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.live-preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    
+}
+
+.live-preview .action h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(37, 36, 50);
+    margin-bottom: 23px;
+}
+.live-preview .action p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.50);
+    margin-bottom: 23px;
+}
+
+.live-preview .live-preview-img img{
+    width: 403px;
+    
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* live preview section ends here */
