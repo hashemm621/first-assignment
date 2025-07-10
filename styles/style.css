@@ -183,7 +183,7 @@
   margin-top: 137px;
   text-align: center;
   padding: 71px 150px;
-  background-color: rgba(24, 14, 14, 0.616);
+  background-color: rgba(171, 188, 212, 0.123);
   border-radius: 10px;
 }
 .trial h2 {
@@ -206,6 +206,11 @@
   width: 840px;
   height: 364px;
   border-radius: 48px;
+  transition: all 0.3s ease;
+}
+.trial-img img:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 7px 5px rgb(41, 49, 61);
 }
 
 /* trial section ends here */
@@ -261,3 +266,38 @@
 }
 
 /* review section ends here */
+
+/* footer section starts here */
+.footer-section {
+  text-align: center;
+  padding: 104px;
+  background-color: rgba(171, 188, 212, 0.123);
+}
+.footer-section h2 {
+  font-size: 60px;
+  color: rgb(78, 71, 255);
+}
+.footer-section p {
+  color: rgba(37, 36, 50, 0.5);
+}
+.footer-section ul a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgba(37, 36, 50, 0.5);
+  transition: all 0.3s ease;
+}
+.footer-section ul li:hover,
+.footer-section ul li a:hover {
+  border-bottom: 2px solid tomato;
+  color: tomato;
+  transform: translateY(-3px);
+}
+.footer-section ul {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+/* footer section ends here  */
